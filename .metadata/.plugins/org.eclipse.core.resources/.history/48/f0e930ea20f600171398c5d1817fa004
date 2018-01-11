@@ -1,0 +1,20 @@
+package resolveit.exam_resolveit;
+
+public class ObjectToJson {
+	
+	private String word;
+	private String pos;
+	public String getWord() {
+		return word;
+	}
+	public void setWord(String word) {
+		this.word = word;
+	}
+	public String getPos() {
+		return pos;
+	}
+	public void setPos(String pos) {
+		this.pos = pos;
+	}
+
+}

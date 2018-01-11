@@ -1,0 +1,22 @@
+package resolveit.exam_resolveit;
+
+import java.util.ArrayList;
+
+public class TokenWordList {
+
+	
+	private ArrayList<TokenWord> tokenWordList;
+
+	public TokenWordList() {
+		
+	}
+	
+	public ArrayList<TokenWord> getTokenWordList() {
+		return tokenWordList;
+	}
+
+	public void setTokenWordList(ArrayList<TokenWord> tokenWordList) {
+		this.tokenWordList = tokenWordList;
+	}
+	
+}

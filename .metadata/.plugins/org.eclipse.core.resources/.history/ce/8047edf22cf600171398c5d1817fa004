@@ -1,0 +1,37 @@
+package resolveit.exam_resolveit;
+
+public class TokenWord {
+	
+	private String word;
+	private String pos;
+	private String lem;
+	private int[] sentence;
+	
+	
+	public String getWord() {
+		return word;
+	}
+	public void setWord(String word) {
+		this.word = word;
+	}
+	public String getPos() {
+		return pos;
+	}
+	public void setPos(String pos) {
+		this.pos = pos;
+	}
+	public String getLem() {
+		return lem;
+	}
+	public void setLem(String lem) {
+		this.lem = lem;
+	}
+	public int[] getSentence() {
+		return sentence;
+	}
+	public void setSentence(int[] sentence) {
+		this.sentence = sentence;
+	}
+	
+
+}

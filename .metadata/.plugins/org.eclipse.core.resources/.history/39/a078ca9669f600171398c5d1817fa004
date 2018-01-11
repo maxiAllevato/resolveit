@@ -1,0 +1,35 @@
+package resolveit.exam_resolveit;
+
+
+import java.util.List;
+
+public class ObjectToJson {
+	
+	
+
+	private String word;
+	private List<Integer> sentence;
+	private String totalOcurreces;
+	
+	public String getWord() {
+		return word;
+	}
+	public void setWord(String word) {
+		this.word = word;
+	}
+	public List<Integer> getSentence() {
+		return sentence;
+	}
+	public void setSentence(List<Integer> sentence) {
+		this.sentence = sentence;
+	}
+	public String getTotalOcurreces() {
+		return totalOcurreces;
+	}
+	public void setTotalOcurreces(String totalOcurreces) {
+		this.totalOcurreces = totalOcurreces;
+	}
+	
+	
+
+}
